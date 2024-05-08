@@ -6,12 +6,15 @@
   }
 .body--index {
     background-color: #504E55;
+    color: white;
 }
 .body--music {
     background-color: #44414C;
+    color: white;
 }
 .body--art {
     background-color: #38363D;
+    color: white;
 }
 h1,
 h2,
@@ -38,8 +41,73 @@ img {
 .link {
   text-decoration: none;
 }
+.title {
+  font-family: 'Cinzel Decorative';
+font-weight: 700;
+font-size: 96px;
+text-align: center;
+}
 .container {
-  width: 1190px;
+  width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
+}
+.header--music {
+  background-image: url('../img/bg-music_img.jpg');
+  background-position: top center;
+  background-size: cover;
+  padding-top: 30px;
+  padding-bottom: 366px;
+}
+.header__subtitle {
+  text-align: center;
+  font-family: 'Inter';
+font-weight: 400;
+font-size: 20px;
+color: #948c87;
+}
+.header__title {
+  margin-top: 311px;
+  font-family: 'Abril Fatface';
+font-weight: 700;
+font-size: 160px;
+text-align: center;
+color: #b9ada5;
+}
+.klas,.roman{
+  padding: 90px;
+}
+.klas__list, .roman__list {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Abril Fatface';
+font-weight: 400;
+font-size: 48px;
+text-align: center;
+color: #ae998d;
+gap: 40px;
+}
+.klas__wrapper, .roman__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.klas-wid{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.klas-wid__list {
+  margin-top: 90px;
+  display: flex;
+  justify-content: space-between;
+}
+.klas-wid__wrapper, .roman__wrapper {
+  text-align: center;
+  margin-top: 50px;
+}
+.heads__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 120px;
+  text-align: center;
 }
