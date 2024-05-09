@@ -1,20 +1,20 @@
 :root {
-    --main-color: #fff;
-    --add-white: #d9d9d9;
-    --main-bg-color: #202023;
-    --accent-color: #b47b48;
-  }
+  --main-color: #fff;
+  --add-white: #d9d9d9;
+  --main-bg-color: #202023;
+  --accent-color: #b47b48;
+}
 .body--index {
-    background-color: #504E55;
-    color: white;
+  background-color: #504e55;
+  color: white;
 }
 .body--music {
-    background-color: #44414C;
-    color: white;
+  background-color: #44414c;
+  color: white;
 }
 .body--art {
-    background-color: #38363D;
-    color: white;
+  background-color: #38363d;
+  color: white;
 }
 h1,
 h2,
@@ -42,57 +42,111 @@ img {
   text-decoration: none;
 }
 .title {
-  font-family: 'Cinzel Decorative';
-font-weight: 700;
-font-size: 96px;
-text-align: center;
+  font-family: "Cinzel Decorative";
+  font-weight: 700;
+  font-size: 64px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+iframe {
+  padding-top: 30px;
+  display: block;
+  margin: 0 auto;
+}
+.subtitle {
+  text-align: center;
+  font-family: "Abril Fatface";
+  font-weight: 400;
+  font-size: 36px;
+  color: #fff;
 }
 .container {
   width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
 }
+.header {
+  padding-top: 30px;
+  padding-bottom: 320px;
+  background-image: url("../img/bg-index_img.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
 .header--music {
-  background-image: url('../img/bg-music_img.jpg');
-  background-position: top center;
-  background-size: cover;
+  background-image: url("../img/bg-music_img.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
   padding-top: 30px;
   padding-bottom: 366px;
 }
 .header__subtitle {
   text-align: center;
-  font-family: 'Inter';
-font-weight: 400;
-font-size: 20px;
-color: #948c87;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 20px;
+  color: #948c87;
 }
 .header__title {
   margin-top: 311px;
-  font-family: 'Abril Fatface';
-font-weight: 700;
-font-size: 160px;
-text-align: center;
-color: #b9ada5;
+  font-family: "Abril Fatface";
+  font-weight: 700;
+  font-size: 96px;
+  text-align: center;
+  color: #b9ada5;
 }
-.klas,.roman{
+.hero__wrapper {
+  display: flex;
+  position: absolute;
+  top: 45%;
+  left: 28%;
+}
+.hero__link {
+  min-width: 570px;
+  min-height: 616px;
+}
+.hero__element {
+  font-family: "Adamina";
+  font-weight: 400;
+  font-size: 249px;
+  text-align: center;
+  color: #9c938e;
+  z-index: 1;
+  bottom: 6px;
+  position: absolute;
+  top: 60%;
+  left: 47%;
+  text-shadow: 0 15px 15px 0 #343334;
+}
+.header__title--music {
+  margin-top: 311px;
+  font-family: "Abril Fatface";
+  font-weight: 700;
+  font-size: 160px;
+  text-align: center;
+  color: #b9ada5;
+}
+.klas,
+.roman {
   padding: 90px;
 }
-.klas__list, .roman__list {
+.klas__list,
+.roman__list {
   margin-top: 70px;
   display: flex;
   flex-direction: column;
-  font-family: 'Abril Fatface';
-font-weight: 400;
-font-size: 48px;
-text-align: center;
-color: #ae998d;
-gap: 40px;
+  font-family: "Abril Fatface";
+  font-weight: 400;
+  font-size: 48px;
+  text-align: center;
+  color: #ae998d;
+  gap: 40px;
 }
-.klas__wrapper, .roman__wrapper {
+.klas__wrapper,
+.roman__wrapper {
   display: flex;
   justify-content: space-between;
 }
-.klas-wid{
+.klas-wid {
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -101,13 +155,178 @@ gap: 40px;
   display: flex;
   justify-content: space-between;
 }
-.klas-wid__wrapper, .roman__wrapper {
+.klas-wid__wrapper,
+.roman__wrapper {
   text-align: center;
   margin-top: 50px;
+}
+.heads {
+  padding-bottom: 90px;
 }
 .heads__list {
   display: flex;
   flex-wrap: wrap;
   gap: 120px;
   text-align: center;
+  margin-top: 90px;
+}
+.bio {
+  background-image: url("../img/bg-chopin_img.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 30px;
+  padding-bottom: 169px;
+}
+.bio__subtitle {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 20px;
+  color: #cdc1bb;
+}
+.bio__title {
+  margin-top: 146px;
+  font-family: "Abril Fatface";
+  font-weight: 700;
+  font-size: 96px;
+  margin-bottom: 60px;
+}
+.bio__text {
+  font-family: "Abril Fatface";
+  font-weight: 400;
+  font-size: 36px;
+  color: #d0d0d0;
+}
+.bio__wrapper {
+  margin-top: 90px;
+}
+.childhood {
+  padding-top: 90px;
+  padding-bottom: 142px;
+}
+.childhood__title {
+  margin-bottom: 90px;
+  font-size: 96px;
+}
+.childhood__text {
+  margin-bottom: 112px;
+  font-family: "Abril Fatface";
+  font-weight: 400;
+  font-size: 36px;
+  color: #b9ada5;
+}
+.family__title {
+  margin-top: 112px;
+}
+.family__list {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+.family__subtitle, .sisters__subtitle {
+  margin-top: 30px;
+  font-family: "Cinzel Decorative";
+font-weight: 400;
+font-size: 24px;
+text-align: center;
+color: #d0d0d0;
+}
+.sisters__list {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+.study__title {
+  margin-top: 90px;
+  margin-bottom: 68px;
+}
+.study__wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 90px;
+}
+.study__text,
+.school__text {
+  font-family: "Abril Fatface";
+  font-weight: 400;
+  font-size: 32px;
+  color: #fff;
+  max-width: 739px;
+  margin-top: 30px;
+}
+.school {
+  padding-top: 90px;
+  padding-bottom: 120px;
+  background-image: url("../img/bg-study_img.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.school__title {
+  margin-bottom: 68px;
+}
+.school__text {
+  max-width: 715px;
+}
+.school__iframe {
+  padding-top: 68px;
+  padding-bottom: 120px;
+}
+.study__wrapper,
+.school-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.travel {
+  padding-top: 90px;
+  padding-bottom: 98px;
+  background-image: url("../img/bg-travel_img.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.travel__list {
+  margin-top: 90px;
+}
+.travel__item {
+  font-family: "Cinzel Decorative";
+font-weight: 700;
+font-size: 64px;
+text-align: center;
+color: #fff;
+}
+.travel__text {
+  margin-top: 90px;
+  font-family: "Abril Fatface";
+font-weight: 400;
+font-size: 64px;
+text-align: center;
+color: #fff;
+}
+.revolution {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.illness__subtitle {
+  font-family: "Abril Fatface";
+font-weight: 400;
+font-size: 64px;
+color: #d0d0d0;
+}
+.illness {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.death__text, .death__quote {
+  font-family: "Abril Fatface";
+font-weight: 400;
+font-size: 64px;
+color: #d0d0d0;
+text-align: center;
+}
+.death__text {
+  margin-top: 85px;
+}
+.death__subtitle {
+  padding-top: 90px;
+}
+.death {
+  margin-bottom: 90px;
 }
