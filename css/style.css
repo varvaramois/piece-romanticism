@@ -42,7 +42,14 @@ img {
   text-decoration: none;
 }
 .title {
-  font-family: "Cinzel Decorative";
+  font-family: 'Cinzel Decorative';
+  font-weight: 700;
+  font-size: 96px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.title-bio {
+  font-family: 'Cinzel Decorative';
   font-weight: 700;
   font-size: 64px;
   text-align: center;
@@ -117,7 +124,7 @@ iframe {
   left: 47%;
   text-shadow: 0 15px 15px 0 #343334;
 }
-.header__title--music {
+.header__title--music, .header__title--art {
   margin-top: 311px;
   font-family: "Abril Fatface";
   font-weight: 700;
@@ -135,7 +142,7 @@ iframe {
   display: flex;
   flex-direction: column;
   font-family: "Abril Fatface";
-  font-weight: 400;
+  font-weight: 700;
   font-size: 48px;
   text-align: center;
   color: #ae998d;
@@ -150,6 +157,11 @@ iframe {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+.music__svg {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 12px;
+}
 .klas-wid__list {
   margin-top: 90px;
   display: flex;
@@ -162,6 +174,23 @@ iframe {
 }
 .heads {
   padding-bottom: 90px;
+}
+.heads__subtitle {
+  margin-top: 50px;
+}
+.heads__subtitle, .klas-wid__subtitle {
+  font-family: "Abril Fatface";
+font-weight: 400;
+font-size: 36px;
+text-align: center;
+color: #b9ada5;
+}
+.heads__text, .klas-wid__text {
+  font-family: "Abril Fatface";
+font-weight: 700;
+font-size: 40px;
+text-align: center;
+
 }
 .heads__list {
   display: flex;
@@ -214,6 +243,12 @@ iframe {
   font-size: 36px;
   color: #b9ada5;
 }
+.childhood-tg__text {
+  font-family: "Abril Fatface";
+  font-weight: 400;
+  font-size: 36px;
+  color: #b9ada5;
+}
 .family__title {
   margin-top: 112px;
 }
@@ -245,10 +280,10 @@ color: #d0d0d0;
   margin-bottom: 90px;
 }
 .study__text,
-.school__text {
+.school__text, .love__text  {
   font-family: "Abril Fatface";
   font-weight: 400;
-  font-size: 32px;
+  font-size: 36px;
   color: #fff;
   max-width: 739px;
   margin-top: 30px;
@@ -271,7 +306,7 @@ color: #d0d0d0;
   padding-bottom: 120px;
 }
 .study__wrapper,
-.school-wrapper {
+.school-wrapper, .love__wrapper {
   display: flex;
   justify-content: space-between;
 }
@@ -304,6 +339,9 @@ color: #fff;
   padding-top: 120px;
   padding-bottom: 120px;
 }
+.love__text {
+  max-width: 660px;
+}
 .illness__subtitle {
   font-family: "Abril Fatface";
 font-weight: 400;
@@ -329,4 +367,44 @@ text-align: center;
 }
 .death {
   margin-bottom: 90px;
+}
+.header--art {
+  background-image: url("../img/bg-art_img.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 30px;
+  padding-bottom: 366px;
+}
+.arts__list {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+.arts__text {
+  margin-top: 30px;
+}
+.big-letters{
+  text-transform: uppercase
+}
+.bio-tg {
+  background-image: url("../img/bg-tg-art_img.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.bio-tg__title {
+  color: #e5cab4;
+  text-align: right;
+}
+.bio__text {
+color: #f1dfcf;
+}
+.study-tg__text {
+  max-width: 620px;
+}
+.tg__subtitle {
+  margin-top: 30px;
+  font-size: 42px;
+}
+.tg-art {
+  padding-bottom: 90px;
 }
