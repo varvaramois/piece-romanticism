@@ -448,3 +448,15 @@ text-align: center;
 .bio-goya__subtitle {
   text-align: right;
 }
+.bio-delac {
+  background-image: url("../img/bg-delac_img.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.white {
+  color: #fafafa;
+}
+.krytyk {
+  font-size: 56px;
+  text-align: center;
+}
