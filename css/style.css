@@ -24,6 +24,9 @@ p {
   margin-top: 0;
   margin-bottom: 0;
 }
+.img {
+  margin: 0 auto;
+}
 ul {
   margin-top: 0;
   margin-bottom: 0;
@@ -391,6 +394,11 @@ text-align: center;
   background-repeat: no-repeat;
   background-position: center;
 }
+.bio-goya {
+  background-image: url("../img/goya-bg_img.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
 .bio-tg__title {
   color: #e5cab4;
   text-align: right;
@@ -410,4 +418,33 @@ color: #f1dfcf;
 }
 .wow {
   padding-bottom: 70px;
+}
+.goya-text {
+  font-family: "Abril Fatface";
+font-weight: 400;
+font-size: 56px;
+color: #d0d0d0;
+text-align: center;
+}
+.madryt-title {
+  font-size: 72px;
+}
+.madryt-list {
+  text-align: left;
+  margin-left: 230px;
+}
+.madryt-subtitle {
+  font-size: 62px;
+  margin-top: 40px;
+}
+.gap-list {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.mb-goya {
+  margin-bottom: 30px;
+}
+.bio-goya__subtitle {
+  text-align: right;
 }
